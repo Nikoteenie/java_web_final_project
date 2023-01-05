@@ -1,11 +1,9 @@
 package com.nbrodkin.java_web_final_project;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name="tv", schema = "tv")
 public class TvShow {
 @Id
 @GeneratedValue
